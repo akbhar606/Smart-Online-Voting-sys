@@ -32,7 +32,7 @@ A secure, web-based voting platform built with HTML, CSS, and JavaScript. Featur
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/online-voting-system.git
+   git clone https://github.com/akbhar606/online-voting-system.git
    cd online-voting-system
    ```
 
@@ -96,7 +96,7 @@ candidates = [
 ### Customizing Admin Credentials
 ```javascript
 // In script.js, modify the admin login function
-if (adminId === 'your-admin-id' && password === 'your-password') {
+if (adminId === 'yashna' && password === 'yashna123') {
     // Admin access granted
 }
 ```
@@ -107,7 +107,7 @@ if (adminId === 'your-admin-id' && password === 'your-password') {
 1. Push to GitHub repository
 2. Go to Settings → Pages
 3. Select source branch
-4. Access via `https://yourusername.github.io/online-voting-system`
+4. Access via `https://akbhar606.github.io/online-voting-system`
 
 ### Local Server
 ```bash
@@ -151,8 +151,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [@yourusername](https://github.com/akbhar606)
+- Email: ansariakbar56748@gmail.com
 
 ## 🙏 Acknowledgments
 
