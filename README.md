@@ -152,6 +152,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Your Name**
 - GitHub: [@akbhar606](https://github.com/akbhar606)
+- LinkedIn: https://www.linkedin.com/in/akbar-ansari-798710330/
 - Email: ansariakbar56748@gmail.com
 
 ## 🙏 Acknowledgments
