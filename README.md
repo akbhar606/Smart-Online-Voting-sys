@@ -151,7 +151,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/akbhar606)
+- GitHub: [@akbhar606](https://github.com/akbhar606)
 - Email: ansariakbar56748@gmail.com
 
 ## 🙏 Acknowledgments
