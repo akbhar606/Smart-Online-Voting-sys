@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login - Online Voting</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-title">Online Voting System</h1>
+    </header>
+
+    <div class="container-center">
+        <div class="admin-login-box">
+            <h2 class="admin-title">Admin Login</h2>
+            
+            <input type="text" id="adminId" placeholder="Admin ID" class="input-field">
+            <input type="password" id="adminPassword" placeholder="Password" class="input-field">
+            
+            <div id="adminError" class="error-msg"></div>
+            
+            <button onclick="handleAdminLogin()" class="btn-primary">Login</button>
+            <button onclick="window.location.href='index.html'" class="btn-secondary">Back</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

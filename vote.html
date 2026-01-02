@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cast Your Vote - Online Voting</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="loadVotePage()">
+    <header class="header">
+        <div class="header-left">
+            <button onclick="window.location.href='index.html'" class="back-btn">← Back</button>
+            <h1 class="header-title">Online Voting System</h1>
+        </div>
+        <button onclick="handleLogout()" class="logout-btn">Logout 👤</button>
+    </header>
+
+    <div class="vote-container">
+        <div class="user-info-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828640.png" alt="User" class="user-avatar">
+            <h3 id="voterName" class="voter-name">Loading...</h3>
+            <div class="voter-details">
+                <p><strong>Mobile:</strong> <span id="voterMobile"></span></p>
+                <p><strong>Address:</strong> <span id="voterAddress"></span></p>
+                <p><strong>D.O.B.:</strong> <span id="voterDob"></span></p>
+                <p class="voter-status">
+                    <strong>Status:</strong> <span id="voterStatus">Not Voted</span>
+                </p>
+            </div>
+        </div>
+
+        <div class="voting-section">
+            <h2 class="section-title">Select Your Candidate</h2>
+            
+            <div id="candidatesList" class="candidates-list"></div>
+
+            <div class="verification-box">
+                <button onclick="getVerificationCode()" class="btn-code">Get Code</button>
+                
+                <div id="codeDisplay" class="code-display" style="display: none;">
+                    <p class="code-label">Your Verification Code:</p>
+                    <p id="displayedCode" class="code-value"></p>
+                </div>
+                
+                <input type="text" id="verifyCode" placeholder="Enter Code" class="input-field">
+                <button onclick="verifyAndVote()" class="btn-verify">Verify</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

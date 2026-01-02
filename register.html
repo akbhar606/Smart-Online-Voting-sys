@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - Online Voting</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-title">Online Voting System</h1>
+    </header>
+
+    <div class="container-center">
+        <div class="register-box">
+            <div class="logo-container">
+                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828640.png" alt="Logo" class="logo-small">
+                <h2 class="page-title">Registration</h2>
+            </div>
+            
+            <div class="form-grid">
+                <input type="text" id="regName" placeholder="Name" class="input-field">
+                <input type="email" id="regEmail" placeholder="Email" class="input-field">
+                <input type="text" id="regMobile" placeholder="Mobile" class="input-field">
+                <input type="date" id="regDob" placeholder="Birth Date" class="input-field">
+                <input type="password" id="regPassword" placeholder="Password" class="input-field">
+                <input type="password" id="regConfirmPassword" placeholder="Confirm password" class="input-field">
+                <input type="text" id="regAddress" placeholder="Address" class="input-field full-width">
+                <input type="text" id="regVerification" placeholder="Verification code (optional)" class="input-field">
+            </div>
+            
+            <div id="regError" class="error-msg"></div>
+            <div id="regSuccess" class="success-msg"></div>
+            
+            <button onclick="handleRegister()" class="btn-primary">Register</button>
+            <button onclick="window.location.href='index.html'" class="btn-secondary">Back</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
